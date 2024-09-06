@@ -6,13 +6,16 @@ export default function Servicos(props: ServicosProps) {
 
     return (
         <SecServ>
-            {props.servicos.map(servico => (
-                <div>
-                    <h3>{servico.nome}</h3>
-                    <p>{servico.desc}</p>
-                    <p>{servico.preco}</p>
-                </div>
-            ))}
+            <h2>Serviços</h2>
+            <div className="container">
+                {props.servicos.map(servico => (
+                    <div className="servico">
+                        <h3>{servico.nome}</h3>
+                        <p className="desc">{servico.desc}</p>
+                        <p className="preco">{servico.preco}</p>
+                    </div>
+                ))}
+            </div>
         </SecServ>
     )
 }

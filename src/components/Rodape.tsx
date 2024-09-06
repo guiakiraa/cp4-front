@@ -11,7 +11,7 @@ export default function Rodape(props: RodapeProps) {
             </div>
             <div className="duvidas">
                 <ul>
-                    <li>Ligue para 12331-1233</li>
+                    <li>Telefone: 12331-1233</li>
                     <li>Email: adsdsadsaa@adasd.com</li>
                     <li>CNPJ: 21321323-11</li>
                 </ul>

@@ -6,8 +6,11 @@ export default function Propagandas() {
 
     return (
         <SecPropa>
-            <img src={anuncio1} alt="" />
-            <img src={anuncio2} alt="" />
+            <h2>Propagandas</h2>
+            <div>
+                <img src={anuncio1} alt="" />
+                <img src={anuncio2} alt="" />
+            </div>
         </SecPropa>
     )
 }
