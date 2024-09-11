@@ -12,7 +12,7 @@ export default function Servicos(props: ServicosProps) {
                     <div className="servico">
                         <h3>{servico.nome}</h3>
                         <p className="desc">{servico.desc}</p>
-                        <p className="preco">{servico.preco}</p>
+                        <p className="preco">R${servico.preco}</p>
                     </div>
                 ))}
             </div>

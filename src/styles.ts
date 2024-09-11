@@ -42,11 +42,24 @@ export const SecPropa = styled.section`
         font-weight: bold;
     }
 
-    div {
+    .container {
         width: 100%;
         display: flex;
         justify-content: center;
         gap: 50px;
+
+        .propa {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 7px;
+
+            p {
+                font-size: 20px;
+                font-weight: 500;
+                color: #000;
+            }
+        }
     }
 
     img {
