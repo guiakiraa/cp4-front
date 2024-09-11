@@ -1,5 +1,5 @@
-import anuncio1 from '../../public/anuncio1.jpg'
-import anuncio2 from '../../public/anuncio2.jpg'
+import publi1 from "../../public/publi1.png"
+import publi2 from "../../public/publi2.png"
 import { SecPropa } from '../styles'
 
 export default function Propagandas() {
@@ -8,13 +8,13 @@ export default function Propagandas() {
         <SecPropa>
             <h2>Propagandas</h2>
             <div className='container'>
-                <div className='propa'>
-                    <img src={anuncio1} alt="" />
-                    <p>1 é R$1000 - 3 é R$4000</p>
+                <div className='propa1'>
+                    <img src={publi1} alt="" />
+                    <p>Promoção: 1 é R$1000, 3 é R$4000!</p>
                 </div>
-                <div className='propa'>
-                    <img src={anuncio2} alt="" />
-                    <p>Compre 10 e leve 1</p>
+                <div className='propa2'>
+                    <img src={publi2} alt="" />
+                    <p>Compre à vista e ganhe 20% de desconto!</p>
                 </div>
             </div>
         </SecPropa>

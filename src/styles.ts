@@ -48,7 +48,7 @@ export const SecPropa = styled.section`
         justify-content: center;
         gap: 50px;
 
-        .propa {
+        .propa1 {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -60,11 +60,31 @@ export const SecPropa = styled.section`
                 color: #000;
             }
         }
-    }
 
-    img {
-        width: 300px;
+        .propa1 img {
+            width: 250px;
+            heigth: 200px;
+        }
+
+        .propa2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 7px;
+
+            p {
+                font-size: 20px;
+                font-weight: 500;
+                color: #000;
+            }
+        }
+
+        .propa2 img {
+            width: 160px;
+            heigth: 200px;
+        }
     }
+        
 `
 
 export const SecApare = styled.section`
@@ -130,6 +150,7 @@ export const SecServ = styled.section`
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    text-align: center;
 
     h2 {
         color: #7F055F;

@@ -10,17 +10,17 @@ import { ItemServico, ListaAparelhosProps } from "./types"
 function App() {
 
   const aparelhos: ListaAparelhosProps[] = [
-    { nome: 'Iphone 11', img: '../../public/cel1.jpg', desc: "celular de 11kg e muito veloz", preco: 1000 },
-    { nome: 'Morola E22', img: '../../public/cel2.jpg', desc: "celular de 1kg e muito ruim", preco: 2000 },
-    { nome: 'Samsung A10', img: '../../public/cel3.jpg', desc: "celular de 15cm e divertido", preco: 1500 },
-    { nome: 'Nokia Gold', img: '../../public/cel4.jpg', desc: "celular azul e muito lerdo", preco: 900 },
-    { nome: 'Xiaomi XX', img: '../../public/cel5.jpg', desc: "celular fino e muito bonito", preco: 999 },
+    { nome: 'Iphone 11', img: '../../public/cel11.png', desc: "IP 11 de 256GB", preco: 1400 },
+    { nome: 'Morola E22', img: '../../public/celular22.png', desc: "MOTO G23 de 128GB", preco: 700 },
+    { nome: 'Samsung A10', img: '../../public/cel33.png', desc: "Samsung A03s de 64GB", preco: 1000 },
+    { nome: 'Nokia Gold', img: '../../public/cel44.png', desc: "Nokia 2.4 (release) de 64GB", preco: 1900 },
+    { nome: 'Xiaomi XX', img: '../../public/cel55.png', desc: "Xiaomi Redmi Note 13 de 256GB", preco: 1800 },
   ]
 
   const servicos: ItemServico[] = [
-    { nome: "Garantia", desc: "Se seu aparelho quebrar antes dos 3 meses a gente devolve o dinhiero", preco: 12345 },
-    { nome: "Manutenção", desc: "Se seu aparelho der problema, a gente resolve!", preco: 333 },
-    { nome: "Anti-Roubo", desc: "Se seu aparelho for furtado ou roubado, a gente te envia outro!", preco: 999 }
+    { nome: "Garantia", desc: "Se seu aparelho apresentar qualquer anomalia durante 1 ano desde a compra, voê pode trazê-lo a uma de nossas lojas para o conserto gratuito ou estorno do dinheiro, caso seja a situação.", preco: 200 },
+    { nome: "Manutenção", desc: "Durante os 2 primeiros anos desde a compra, seu aparelho pode receber 2 manutenções gratuitas em uma de nossas lojas.", preco: 500 },
+    { nome: "Anti-Roubo", desc: "Com o seguro da loja, em casos de furto, descorra a nós o problema e receba o valor do aparelho.", preco: 1000 }
   ]
 
   return (
