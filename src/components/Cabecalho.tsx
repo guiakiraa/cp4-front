@@ -7,7 +7,7 @@ export default function Cabecalho() {
         <HeaderCabec>
             <div>
                 <img className='logo' src={logo} alt="Logo Apple" />
-                <h1>Apple</h1>
+                <h1>Modern<span>A</span></h1>
             </div>
             <button>Login</button>
         </HeaderCabec>
