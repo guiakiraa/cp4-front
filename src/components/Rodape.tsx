@@ -14,7 +14,7 @@ export default function Rodape(props: RodapeProps) {
             <h3>Fale conosco</h3>
                 <ul>
                     <li>Telefone: 12331-1233</li>
-                    <li>Email: adsdsadsaa@adasd.com</li>
+                    <li>Email: morderna@gmail.com</li>
                     <li>CNPJ: 21321323-11</li>
                 </ul>
             </div>

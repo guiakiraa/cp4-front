@@ -31,9 +31,9 @@ function App() {
       <Servicos servicos={servicos} />
       <Rodape>
         <ul>
-          <li>Loja 1</li>
-          <li>Loja 2</li>
-          <li>Loja 3</li>
+          <li>Loja 1 - Tatuapé</li>
+          <li>Loja 2 - Osasco</li>
+          <li>Loja 3 - Pinheiros</li>
         </ul>
       </Rodape>
     </>
